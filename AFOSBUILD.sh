@@ -8,4 +8,4 @@ chmod -R 755 /opt/ANDRAX/bin
 
 venv/bin/pip install -e ".[dev]"
 
-cp -Rf (pwd) /opt/ANDRAX/mitmproxy
+cp -Rf $(pwd) /opt/ANDRAX/mitmproxy
