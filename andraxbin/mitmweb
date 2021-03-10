@@ -1,0 +1,5 @@
+#!/bin/bash
+
+source /opt/ANDRAX/mitmproxy/venv/bin/activate
+
+mitmweb "$@"
